@@ -23,8 +23,11 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
+import re
 
-cpf_numeros = "03310131262"
+# cpf_numeros = '025.444.832-10'.replace('.', '').replace('-', '')
+cpf_numeros = re.sub(r'[^0-9]', '', '025.444.832-10')
+
 numeros = cpf_numeros[:9]
 multiplicador = 10
 soma = 0
