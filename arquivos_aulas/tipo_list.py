@@ -31,6 +31,3 @@ lista_d = lista_a.extend(lista_b)  # Adiciona os itens de lista_b em lista_a
 lista_a.sort()            # Ordena os itens de lista_a
 print(lista_a)
 print(lista_c)
-
-lista_caralho = ['V']
-print(len(lista_caralho))
