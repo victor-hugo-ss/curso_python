@@ -2,8 +2,8 @@
 Exercício 02
 Crie funções que duplicam, triplicam e quadruplicam o valor recebido como parâmetro.
 """
-def operacao(numero):
-    def operar(multiplicador):
+def operacao(multiplicador):
+    def operar(numero):
         return numero * multiplicador
     return operar
 

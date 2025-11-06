@@ -9,6 +9,8 @@ O valor pode ser de qualquer tipo, incluindo outro dicionário.
 Usamos as chaves - {} - ou a classe dict para criar dicionários.
 Imutáveis: str, int, float, bool, tuple
 Mutáveis: dict, list
+
+"""
 pessoa = {
     'nome': 'Victor',
     'sobrenome': 'Santos',
@@ -16,7 +18,10 @@ pessoa = {
     'altura': 1.70,
     'enderecos':[
         {'rua': 'tal tal', 'numero': 123},
-        {'rua': 'outra rua', 'numero': 321}
+        {'rua': 'outra rua', 'numero': 321},
     ]
 }
-"""
+
+print(pessoa['nome'])
+print(pessoa['sobrenome'])
+print(pessoa['enderecos'][1]['numero'])
